@@ -71,7 +71,7 @@ object appTansformations {
     val rdd1 = sc.parallelize(List("abe", "abby", "apple"))
     val rdd2 = sc.parallelize(List("apple", "beatty", "beatrice"))
     printResult("cartisian",rdd1.cartesian(rdd2).collect())
-    
+
     sc.stop()
   }
 
