@@ -1,0 +1,6 @@
+name,age,sex,job
+charlie,28,male,sw
+eric,27,male,sw
+lynn,30,female,sw
+michelle,30,female,tester
+helen,19,female,tester
